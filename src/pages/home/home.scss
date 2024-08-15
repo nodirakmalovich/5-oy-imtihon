@@ -1,0 +1,24 @@
+@media (max-width: 1250px) {
+    .home {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 850px) {
+    .home {
+        margin-right: 20px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .home_content_userContent_name{
+        flex-wrap: wrap;
+        gap: 0;
+        margin-bottom: 20px;
+    }
+
+    .actions{
+        flex-wrap: wrap;
+    }
+}
